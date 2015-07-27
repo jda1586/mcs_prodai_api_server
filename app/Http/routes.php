@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return response()->json(['Hola' => 'mundo!!']);
 });
+
+Route::get('test', function () {
+    return response()->json(['ok' => true]);
+});
