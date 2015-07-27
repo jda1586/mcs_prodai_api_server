@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: prodai
+        psr4_prefix: prodai
+        src_path: app
