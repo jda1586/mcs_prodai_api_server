@@ -16,5 +16,9 @@ Route::get('/', function () {
 });
 
 Route::get('test', function () {
-    return response()->json(['ok' => true]);
+    return response()->json([
+        'login' => true,
+        'storage' => true,
+        'services' => true
+    ]);
 });
